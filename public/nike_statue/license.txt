@@ -1,0 +1,11 @@
+Model Information:
+* title:	Nike Statue Photocapture
+* source:	https://sketchfab.com/3d-models/nike-statue-photocapture-6ee231bfeb824634aef6950cf476fdd0
+* author:	alroberts1 (https://sketchfab.com/alroberts1)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Nike Statue Photocapture" (https://sketchfab.com/3d-models/nike-statue-photocapture-6ee231bfeb824634aef6950cf476fdd0) by alroberts1 (https://sketchfab.com/alroberts1) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
