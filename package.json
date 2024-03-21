@@ -3,7 +3,7 @@
   "private": false,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://albyleo.github.io/3Ddeveloper-portfolio",
+  "homepage": "https://albyleo.github.io/3Ddeveloper-portfolio/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
