@@ -16,6 +16,7 @@ import java from "./tech/java.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
+import python from "./tech/python.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
@@ -31,6 +32,6 @@ import santorini from "./santorini.png";
 
 export {
   MySQL, backend, blender, c, carrent, close, creator, egeria, fpga, git, github, html, java, javascript, logo, menu, mobile, mongodb,
-  nodejs, polimi, reactjs, santorini, tailwind, threejs, typescript, ue, unrealengine, web
+  nodejs, polimi, python, reactjs, santorini, tailwind, threejs, typescript, ue, unrealengine, web
 };
 

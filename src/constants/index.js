@@ -13,6 +13,7 @@ import {
   mobile,
   nodejs,
   polimi,
+  python,
   reactjs,
   santorini,
   tailwind,
@@ -70,24 +71,28 @@ const technologies = [
     icon: c,
   },
   {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
+    name:"python",
+    icon: python,
   },
   {
     name: "MySQL",
     icon: MySQL,
   },
   {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
     name: "Three JS",
     icon: threejs,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
   },
   {
     name: "git",
