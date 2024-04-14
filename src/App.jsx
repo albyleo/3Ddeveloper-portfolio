@@ -1,6 +1,7 @@
+import { isMobile } from 'react-device-detect';
 import { BrowserRouter } from "react-router-dom";
 
-import { About, Contact, Experience, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
+import { About, Contact, Experience, Hero, Navbar, StarsCanvas, Tech, Works } from "./components";
 
 const App = () => {
   return (
@@ -13,8 +14,7 @@ const App = () => {
         <About />
         <Experience />
         <Works />
-        <Tech />
-        
+        {!isMobile && <Tech />}
         
         <div className='relative z-0'>
           <Contact />

@@ -1,24 +1,16 @@
 import {
-  MySQL,
   backend,
-  blender,
   c,
   carrent,
   creator,
   egeria,
   fpga,
-  git,
   java,
   javascript,
   mobile,
-  nodejs,
+  MySQL,
   polimi,
-  python,
-  reactjs,
   santorini,
-  tailwind,
-  threejs,
-  ue,
   unrealengine,
   web
 } from "../assets";
@@ -63,49 +55,18 @@ const technologies = [
     icon: java,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
     name: "C",
     icon: c,
   },
   {
-    name:"python",
-    icon: python,
+    name: "Javascript",
+    icon: javascript,
   },
   {
-    name: "MySQL",
+    name: "mysql",
     icon: MySQL,
   },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "Unreal Engine",
-    icon: ue,
-  },
-  {
-    name: "Blender",
-    icon: blender,
-  },
+ 
 ];
 
 const experiences = [
