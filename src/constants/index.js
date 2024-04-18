@@ -8,10 +8,16 @@ import {
   java,
   javascript,
   mobile,
+  nodejs,
   MySQL,
   polimi,
   santorini,
   unrealengine,
+  python,
+  mongodb,
+  git,
+  ue,
+  blender,
   web
 } from "../assets";
 
@@ -66,7 +72,26 @@ const technologies = [
     name: "mysql",
     icon: MySQL,
   },
- 
+  {
+    name: "python",
+    icon: python,
+  },
+  {
+    name: "nodejs",
+    icon: nodejs,
+  },
+  {
+    name: "git",
+    icon: git,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "blender",
+    icon: blender,
+  }
 ];
 
 const experiences = [
