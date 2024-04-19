@@ -1,6 +1,5 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import React, { useRef } from "react";
-import HorizontalScroll from 'react-horizontal-scrolling';
 import ReactPlayer from "react-player";
 import Tilt from "react-tilt";
 import Tilty from "react-tilty";
@@ -13,8 +12,8 @@ import { styles } from "../styles";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const video1 =  "https://streamable.com/ym76a3";
-const video2 =  "https://streamable.com/c8b8s8";
-const video3 =  "https://streamable.com/medjkv";
+const video2 =  "https://streamable.com/medjkv";
+const video3 =  "https://streamable.com/c8b8s8";
 const video4 =  "https://streamable.com/bisq0o";
 const video5 =  "https://streamable.com/l29cd3";
 const videos = [video1, video2, video3, video4, video5];
@@ -99,24 +98,28 @@ const HorizontalScrollCarousel = () => {
     target: targetRef,
   });
 
-  const x = useTransform(scrollYProgress, [0, 1], ["0%", "5%"]);
+  const x = useTransform(scrollYProgress, [0, 1], ["1%", "-95%"]);
   const { disableScroll, enableScroll } = usePreventBodyScroll();
 
 
-  return (  
+  return (
     
-    <HorizontalScroll>
-     {videos.map((video, index) => {
-        return (    
-          <motion.div onMouseEnter={disableScroll} onMouseLeave={enableScroll} key={index} style={{ x }}>      
+    <section ref={targetRef} className="relative h-[200vh] ">
+    <div className="sticky top-0 flex h-screen items-center overflow-hidden">
+
+      <motion.div style={{ x }} className="flex gap-4">
+
+      {videos.map((video, index) => {
+        return (
             <Tilty
               max={10}
+              key={index}
               >
               <ReactPlayer
                 key={index}
                 className="group relative h-[630px] w-[300px] overflow-hidden "
                 url={video}
-                playing
+                playing ={false}
                 loop ={true}
                 muted
                 controls ={false} // Add controls for play/pause
@@ -125,10 +128,12 @@ const HorizontalScrollCarousel = () => {
                 style={divStyle}
               />
             </Tilty>
-          </motion.div>
+          
         );
       })}
-    </HorizontalScroll>
+      </motion.div>
+    </div>
+    </section>
   );
 };
 
