@@ -104,7 +104,7 @@ const HorizontalScrollCarousel = () => {
 
   return (
     
-    <section ref={targetRef} className="relative h-[200vh] ">
+    <section ref={targetRef} className="relative h-[140vh] ">
     <div className="sticky top-0 flex h-screen items-center overflow-hidden">
 
       <motion.div style={{ x }} className="flex gap-4">
@@ -164,7 +164,9 @@ const Works = () => {
 
       <HorizontalScrollCarousel />
 
-      <div className='mt-20 flex flex-wrap gap-7'>
+
+
+      <div className='mt-5 flex flex-wrap gap-5'>
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
@@ -173,7 +175,7 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "Works");
 
 
 
