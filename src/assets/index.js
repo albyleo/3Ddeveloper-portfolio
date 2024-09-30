@@ -28,10 +28,11 @@ import egeria from "./company/egeria.png";
 import polimi from "./company/polimi.png";
 import unrealengine from "./company/unrealengine.png";
 import fpga from "./fpga.png";
+import rustbevy from "./rustbevy.jpg";
 import santorini from "./santorini.png";
 
 export {
   MySQL, backend, blender, c, carrent, close, creator, egeria, fpga, git, github, html, java, javascript, logo, menu, mobile, mongodb,
-  nodejs, polimi, python, reactjs, santorini, tailwind, threejs, typescript, ue, unrealengine, web
+  nodejs, polimi, python, reactjs, rustbevy, santorini, tailwind, threejs, typescript, ue, unrealengine, web
 };
 

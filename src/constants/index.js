@@ -1,23 +1,23 @@
 import {
   backend,
+  blender,
   c,
   carrent,
   creator,
   egeria,
   fpga,
+  git,
   java,
   javascript,
   mobile,
-  nodejs,
+  mongodb,
   MySQL,
+  nodejs,
   polimi,
+  python,
+  rustbevy,
   santorini,
   unrealengine,
-  python,
-  mongodb,
-  git,
-  ue,
-  blender,
   web
 } from "../assets";
 
@@ -172,7 +172,7 @@ const projects = [
   {
     name: "Car Rent",
     description:
-      "Project of Algorithms and Data Structures, developed in C using toolsas valgring, callgring and perf to optimize time and memory consumption.",
+      "Project of Algorithms and Data Structures, developed in C using tools as valgring, callgring and perf to optimize time and memory consumption.",
     tags: [
       {
         name: "C",
@@ -186,7 +186,7 @@ const projects = [
   {
     name: "Vhdl-FPGA Project",
     description:
-    "Programmming a HW module fpga, using input signal with clock and reset and confronting the output from testbech.",
+    "Programmming a HW module fpga, using input signal with clock & reset and confronting the output from testbech.",
     tags: [
       {
         name: "VHDL",
@@ -196,6 +196,21 @@ const projects = [
     ],
     image: fpga,
     source_code_link: "https://github.com/albyleo/VHDL-FPGA-Project",
+  },
+
+  {
+    name: "Rust project",
+    description:
+    "Using Rust and Bevy ECS Entity Component System to render an animated 3d model and coding a model view with camera control over it, for web i used WASM that provides a near native speed performance.",
+    tags: [
+      {
+        name: "RUST",
+        color: "red-text-gradient",
+      },
+      
+    ],
+    image: rustbevy,
+    source_code_link: "https://github.com/albyleo/Bevy_3d_rendering",
   },
 ];
 
