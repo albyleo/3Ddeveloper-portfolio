@@ -3,6 +3,8 @@ import React, { useRef } from "react";
 import ReactPlayer from "react-player";
 import Tilty from "react-tilty";
 import { SectionWrapper } from "../hoc";
+import { styles } from "../styles";
+import { textVariant } from "../utils/motion";
 
     const videos = [
     "https://streamable.com/ym76a3",
@@ -60,7 +62,6 @@ import { SectionWrapper } from "../hoc";
         <>
         <motion.div variants={textVariant()}>
             <p className={`${styles.sectionSubText} `}>My CGI Projects</p>
-            <h2 className={`${styles.sectionHeadText}`}>Videos.</h2>
         </motion.div>
         <HorizontalScrollCarousel />
         </>

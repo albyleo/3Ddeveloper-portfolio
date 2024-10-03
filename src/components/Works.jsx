@@ -1,23 +1,11 @@
-import { motion, useScroll, useTransform } from "framer-motion";
-import React, { useRef } from "react";
-import ReactPlayer from "react-player";
+import { motion } from "framer-motion";
+import React from "react";
 import Tilt from "react-tilt";
-import Tilty from "react-tilty";
-import usePreventBodyScroll from "../UsePreventBodyScroll";
-
 import { github } from "../assets";
 import { projects } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
 import { fadeIn, textVariant } from "../utils/motion";
-
-const video1 =  "https://streamable.com/ym76a3";
-const video2 =  "https://streamable.com/medjkv";
-const video3 =  "https://streamable.com/c8b8s8";
-const video4 =  "https://streamable.com/bisq0o";
-const video5 =  "https://streamable.com/l29cd3";
-const videos = [video1, video2, video3, video4, video5];
-
 
 const ProjectCard = ({
   index,
@@ -79,7 +67,7 @@ const ProjectCard = ({
 };
 
 
-
+/*
 const divStyle = {
   color: '#FFFFFF',
   borderRadius: '16px',
@@ -90,54 +78,7 @@ const divStyle = {
   marginRight: '25px',
   //backgroundImage: 'url(' + imgUrl + ')',
 };
-
-const HorizontalScrollCarousel = () => {
-  //const targetRef = useRef<HTMLDivElement | null>(null);
-  const targetRef = useRef(null);
-  const { scrollYProgress } = useScroll({
-    target: targetRef,
-  });
-
-  const x = useTransform(scrollYProgress, [0, 1], ["1%", "-95%"]);
-  const { disableScroll, enableScroll } = usePreventBodyScroll();
-
-
-  return (
-    
-    <section ref={targetRef} className="relative h-[140vh] ">
-    <div className="sticky top-0 flex h-screen items-center overflow-hidden">
-
-      <motion.div style={{ x }} className="flex gap-4">
-
-      {videos.map((video, index) => {
-        return (
-            <Tilty
-              max={10}
-              key={index}
-              >
-              <ReactPlayer
-                key={index}
-                className="group relative h-[630px] w-[300px] overflow-hidden "
-                url={video}
-                playing ={false}
-                loop ={true}
-                muted
-                controls ={false} // Add controls for play/pause
-                height={600}
-                width={340}
-                style={divStyle}
-              />
-            </Tilty>
-          
-        );
-      })}
-      </motion.div>
-    </div>
-    </section>
-  );
-};
-
-
+*/
 
 const Works = () => {
   
@@ -161,9 +102,6 @@ const Works = () => {
           
         </motion.p>
       </div>
-
-      <HorizontalScrollCarousel />
-
 
 
       <div className='mt-5 flex flex-wrap gap-5'>
