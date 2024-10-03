@@ -1,4 +1,5 @@
 import About from "./About";
+import CGIprojects from "./CGIprojects";
 import Contact from "./Contact";
 import Experience from "./Experience";
 import Hero from "./Hero";
@@ -10,7 +11,7 @@ import { BallCanvas, ComputersCanvas, EarthCanvas, StarsCanvas } from './canvas'
 
 
 export {
-  About, BallCanvas, CanvasLoader, ComputersCanvas, Contact, EarthCanvas, Experience, Hero,
+  About, BallCanvas, CanvasLoader, CGIprojects, ComputersCanvas, Contact, EarthCanvas, Experience, Hero,
   Navbar, StarsCanvas, Tech, Works
 };
 
