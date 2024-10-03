@@ -204,7 +204,7 @@ const projects = [
     "Using Rust and Bevy ECS Entity Component System to render an animated 3d model and coding a model view with camera control over it, for web i used WASM that provides a near native speed performance.",
     tags: [
       {
-        name: "RUST",
+        name: "Rust",
         color: "red-text-gradient",
       },
       
