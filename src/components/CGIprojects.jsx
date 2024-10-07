@@ -11,7 +11,7 @@ import { textVariant } from "../utils/motion";
     "https://streamable.com/medjkv",
     "https://streamable.com/c8b8s8",
     "https://streamable.com/bisq0o",
-    "https://streamable.com/l29cd3"
+    "https://streamable.com/fruh4k"
     ];
 
     const divStyle = {
