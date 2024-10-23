@@ -8,10 +8,9 @@ import { textVariant } from "../utils/motion";
 
     const videos = [
     "https://streamable.com/ym76a3",
-    "https://streamable.com/medjkv",
-    "https://streamable.com/c8b8s8",
-    "https://streamable.com/bisq0o",
-    "https://streamable.com/fruh4k"
+    "https://streamable.com/fruh4k",
+    "https://streamable.com/sq9g5u",
+    "https://streamable.com/kxlerf"
     ];
 
     const divStyle = {
