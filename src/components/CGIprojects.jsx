@@ -7,7 +7,7 @@ import { styles } from "../styles";
 import { textVariant } from "../utils/motion";
 
     const videos = [
-    "https://streamable.com/ym76a3",
+    "https://streamable.com/sadmtv",
     "https://streamable.com/fruh4k",
     "https://streamable.com/sq9g5u",
     "https://streamable.com/kxlerf"
