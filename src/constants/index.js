@@ -96,11 +96,11 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
+    title: "Software developer",
     company_name: "Egeria",
     icon: egeria,
     iconBg: "#FFFFFF",
-    date: "Jan 2022 - Feb 2023",
+    date: "Jan 2022 to date",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
