@@ -100,7 +100,7 @@ const experiences = [
     company_name: "Egeria",
     icon: egeria,
     iconBg: "#FFFFFF",
-    date: "Jan 2022 to date",
+    date: "Jan 2022 until present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
@@ -114,7 +114,7 @@ const experiences = [
     iconBg: "#FFFFFF",
     date: "Jan 2022 - Feb 2023",
     points: [
-      "Use of Python with dataframe and series from Pandas.",
+      "Use of Python with dataframe and series from Pandas, live interaction using Django WebSockets and APIs to handle data.",
       "Quering Data with SQL to analyse and manipulate them .",
       "Use of Data visualization tool as PowerBI, translating database relation-entity model.",
     ],

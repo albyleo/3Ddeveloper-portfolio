@@ -47,8 +47,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-       I have experience in Javascript React framework, Python and SQL for data analysis, Java and C. I love learning and implementing optimized code solutions.
-       Also have a creative drive that made me learn CGI & VFX for Cinematography, using programs as Blender, Unreal Engine, Cascadeur and so on.
+       I’m a dynamic Software Engineer with a passion for tech innovation and continuous learning. Proficient in full-stack
+       development with React.js, backed by strong foundations in Javascript, SQL, Java, Python and C. I thrive on crafting
+       optimized solutions and approaching challenges with analytical precision. My technical expertise extends beyond
+       traditional software development into financial realms such as trading commodities and apply AI models on markets.
+       Also have a creative drive that made me learn CGI for UX developing, using programs as Blender, Unreal Engine, Cascadeur and so on.
        Projects of mine below will follow up on the description
       </motion.p>
 
